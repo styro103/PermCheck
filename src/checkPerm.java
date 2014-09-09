@@ -8,8 +8,8 @@ class checkPerm
         long indexsum = 0; //Hold Sum of Indexes
         long [] count = new long [A.length]; //Array of Counters
         
-        for (int i=0; i<count.length; i++) //Fill Array of Counters With Zeroes
-            count[i] = 0;
+        //for (int i=0; i<count.length; i++) //Fill Array of Counters With Zeroes, Not Needed in Java
+            //count[i] = 0;
         
         for (int i=0; i<A.length; i++) //Loop Through Array A
         {
